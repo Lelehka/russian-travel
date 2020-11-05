@@ -1,0 +1,10 @@
+.lead__image-map{
+    background-image: url("../../../images/maps.png");
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    background-size: cover;
+}

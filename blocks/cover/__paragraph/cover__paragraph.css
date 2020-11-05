@@ -1,0 +1,19 @@
+.cover__paragraph{
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+}
+
+@media (max-width: 320px){
+    .cover__paragraph{
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

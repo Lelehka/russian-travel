@@ -1,0 +1,28 @@
+.header__link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    top: 18;
+    right: 0;
+}
+.header__link:nth-child(2){
+    padding-right: 47px;
+}
+
+@media (max-width: 320px){
+    .header__link{
+        font-size: 18px;
+        line-height: 20px;
+        top: 14;
+    }
+
+    .header__link:nth-child(2){
+        padding-right: 56px;
+    }
+}
