@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+ссылка на проект  https://lelehka.github.io/russian-travel/index.html
+
 ### Обзор
 * Интро
 * Figma
