@@ -7,7 +7,7 @@
     margin-bottom: 80px;
     grid-template-areas: 
         "title url"
-        "image paragraph"
+        "image paragraph";
 }
 
 @media (max-width: 1024px){
@@ -36,6 +36,6 @@
         grid-template-areas: 
         "title"
         "image"
-        "paragraph"
+        "paragraph";
     }
 }
