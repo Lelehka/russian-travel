@@ -2,10 +2,14 @@
     text-decoration: none;
     color: white;
     margin-right: 18px;
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
+}
+
+.footer__link:hover{
+    opacity: 0.8;
 }
 
 @media (max-width: 320px){

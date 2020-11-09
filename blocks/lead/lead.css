@@ -1,6 +1,5 @@
 .lead{
     max-width: 984px;
-    min-height: 1005px;
     margin: auto;
     padding-top: 56px;
 }
@@ -8,7 +7,6 @@
 @media (max-width: 1024px){
     .lead{
         max-width: 928px;
-        min-height: 962px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -17,7 +15,6 @@
 @media (max-width: 768px){
     .lead{
         max-width: 768px;
-        min-height: 862px;
         margin: 0;
         padding-top: 48px;
     }
@@ -26,6 +23,5 @@
 @media (max-width: 320px){
     .lead{
         max-width: 320px;
-        min-height: 406px;
     }
 }

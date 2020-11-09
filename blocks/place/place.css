@@ -1,7 +1,6 @@
 .place{
-    min-height:  584px;
     display: grid;
-    grid-template-columns: 460px 484px;
+    grid-template-columns: 460px 1fr;
     column-gap: 40px;
     row-gap: 48px;
     margin-bottom: 80px;
@@ -12,25 +11,28 @@
 
 @media (max-width: 1024px){
     .place{
-        min-height:  640px;
-        grid-template-columns: 440px 456px;
+        grid-template-columns: 440px 1fr;
         
     }
 }
 
 @media (max-width: 768px){
     .place{
-        min-height:  581px;
-        grid-template-columns: 340px 352px;
+        grid-template-columns: 340px 1fr;
         column-gap: 28px;
         margin-bottom: 73px;
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 584px){
     .place{
-        min-height:  964px;
-        grid-template-columns: 320px;
+        grid-template-columns: 240px 1fr;
+    }
+}
+
+@media (max-width: 488px){
+    .place{
+        grid-template-columns: 1fr;
         margin-bottom: 49px;
         row-gap: 32px;
         grid-template-areas: 
