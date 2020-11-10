@@ -3,6 +3,8 @@
     margin: auto;
     padding-bottom: 24px;
     display: flex;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 @media (max-width: 1024px){
@@ -14,6 +16,8 @@
 @media (max-width: 768px){
     .footer{
         max-width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 

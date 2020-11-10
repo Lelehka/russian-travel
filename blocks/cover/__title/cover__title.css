@@ -11,7 +11,20 @@
     padding: 0;
 }
 
-@media (max-width: 320px){
+@media (max-width: 700px){
+    .cover__title{
+        font-size: 66px;
+        line-height: 1.25;
+    }
+}
+
+@media (max-width: 463px){
+    .cover__title{
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 408px){
     .cover__title{
         max-width: 288px;
         font-size: 32px;

@@ -8,9 +8,10 @@
     text-align: center;
 }
 
-@media (max-width: 660px){
+@media (max-width: 700px){
     .lead__title{
         font-size: 66px;
+        line-height: 1.25;
     }
 }
 
@@ -20,7 +21,7 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .lead__title{
         max-width: 288px;
         font-size: 40px;
