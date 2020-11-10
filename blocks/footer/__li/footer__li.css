@@ -14,6 +14,6 @@
     }
 
     .footer__li:last-child{
-        margin-bottom: 48px;
+        margin-bottom: 0;
     }
 }
