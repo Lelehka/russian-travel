@@ -18,6 +18,13 @@
 
 @media (max-width: 1089px){
     .place{
+        grid-template-columns: 440px 1fr;
+        
+    }
+}
+
+@media (max-width: 1024px){
+    .place{
         grid-template-columns: 360px 1fr;
         
     }
