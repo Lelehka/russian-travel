@@ -9,9 +9,16 @@
         "image paragraph";
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1177px){
     .place{
-        grid-template-columns: 440px 1fr;
+        grid-template-columns: 420px 1fr;
+        
+    }
+}
+
+@media (max-width: 1089px){
+    .place{
+        grid-template-columns: 360px 1fr;
         
     }
 }
